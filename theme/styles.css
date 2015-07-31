@@ -39,19 +39,20 @@ th {
 dt{ font-weight:bold;}
 
 ::selection {
-  background: #ffb7b7; /* WebKit/Blink Browsers */
+  background: #FBE026; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
+  background: #FBE026; /* Gecko Browsers */
 }
+
 /*--------------------------------
   Layout
 --------------------------------*/
 
 body {
-  background: #eee;
-  margin: 0;
-  text-align: justify;
+  	background: #FFF;
+	margin: 0;
+  	text-align: justify;
 }
 
 #wrapper {
@@ -98,7 +99,7 @@ header a:hover {
 }
 
 .byline a {
-  color: #888;
+  color: #000;
   text-align: center;
   font-size: medium;
   text-transform: uppercase;
@@ -126,7 +127,7 @@ header a:hover {
 }
 
 .downloads a {
-  margin: 0 1em;
+  margin: 0 0.5em;
   color: #888;
   text-align: center;
   font-size: 0.7em;
@@ -134,7 +135,7 @@ header a:hover {
   letter-spacing: 0.1em;
 }
 a:hover{
-    color:#2196F3;
+    color: #FBE026;
 }
 
 .downloads a:last-child {
@@ -169,7 +170,8 @@ header h1 {
   font-family: 'Playfair Display', "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   line-height:1.5em;
   color: #fff;
-  background-color: #2196F3;
+  /*background-color: #2196F3;*/
+  background-color: #fbe026;
   padding: 0.2em;
 }
 
